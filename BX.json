@@ -1,6 +1,6 @@
 {
   "spider": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737535398778/f0122.txt;md5;1aa6ec5b5545453d6850174fc1fcc78c",
-  "wallpaper": "https://wp.upx8.com/api.php",
+  "wallpaper": "https://深色壁纸.xxooo.cf/",
   "sites": [
     {
       "key": "豆",
@@ -14,7 +14,7 @@
     },
     {
       "key": "玩偶",
-      "name": "👽大佬giegie┃4K弹幕",
+      "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -29,7 +29,7 @@
     },
     {
       "key": "YGP",
-      "name": "🚀荐影┃预告片",
+      "name": "🚀叨观荐影┃预告片",
       "type": 3,
       "api": "csp_YGP",
       "searchable": 0,
@@ -38,7 +38,7 @@
     },
     {
       "key": "alllive",
-      "name": "📽️Live┃直播",
+      "name": "📽️一直播┃直播",
       "type": 3,
       "api": "csp_Alllive",
       "playerType": 2,
