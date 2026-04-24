@@ -4,10 +4,25 @@
 "sites":[
 {"key":"豆","name":"一家人天天开心！——柏","type":3,"api":"csp_DouDouGuard","indexs":1,"searchable":0,"quickSearch":0,"filterable":0},
 {
+            "key": "配置中心",
+            "name": "配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
+        },
+        {
             "key": "快映",
             "name": "快映｜4K",
             "type": 3,
             "api": "csp_PanWebShare",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -25,6 +40,7 @@
             "name": "木偶｜4K",
             "type": 3,
             "api": "csp_PanWebShare",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -44,6 +60,7 @@
             "name": "蜡笔｜4K",
             "type": 3,
             "api": "csp_PanWebShare",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -67,6 +84,7 @@
             "name": "至臻｜4K",
             "type": 3,
             "api": "csp_PanWebShare",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -88,6 +106,7 @@
             "name": "多多｜4K",
             "type": 3,
             "api": "csp_PanWebShare",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -106,6 +125,7 @@
             "name": "欧哥｜4K",
             "type": 3,
             "api": "csp_PanWebShare",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -125,6 +145,7 @@
             "name": "二小｜4K",
             "type": 3,
             "api": "csp_PanWebShare",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -145,6 +166,7 @@
             "name": "虎斑｜4K",
             "type": 3,
             "api": "csp_PanWebShare",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -162,6 +184,7 @@
             "name": "闪电｜4K",
             "type": 3,
             "api": "csp_PanWebShare",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -179,6 +202,7 @@
             "name": "夸克｜4K",
             "type": 3,
             "api": "csp_PanWebShareKK",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -195,6 +219,7 @@
             "name": "清影｜4K",
             "type": 3,
             "api": "csp_PanWebShareQY",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -211,6 +236,7 @@
             "name": "夸父｜4K",
             "type": 3,
             "api": "csp_PanWebShareKF",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -231,6 +257,7 @@
             "name": "盘它｜4K",
             "type": 3,
             "api": "csp_PanWebSharePT",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -244,6 +271,7 @@
             "name": "123｜4K",
             "type": 3,
             "api": "csp_PanWebShare123",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -264,6 +292,7 @@
             "name": "指南｜4K",
             "type": 3,
             "api": "csp_4KZhinan",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -274,6 +303,7 @@
             "name": "人人｜4K",
             "type": 3,
             "api": "csp_RenRen",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -284,6 +314,7 @@
             "name": "即刻｜4K",
             "type": 3,
             "api": "csp_Jike",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -297,6 +328,7 @@
             "name": "双星｜4K",
             "type": 3,
             "api": "csp_ShuangXing",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0,
@@ -310,6 +342,7 @@
             "name": "围观｜短剧",
             "type": 3,
             "api": "csp_WeiguanDJ",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -321,6 +354,7 @@
             "name": "甜圈｜短剧",
             "type": 3,
             "api": "csp_TianquanDJ",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -332,6 +366,7 @@
             "name": "星芽｜短剧",
             "type": 3,
             "api": "./py/星芽短剧.py",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -343,6 +378,7 @@
             "name": "剧王｜短剧",
             "type": 3,
             "api": "./py/剧王短剧.py",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "changeable": 1,
             "quickSearch": 1,
@@ -353,13 +389,15 @@
             "key": "独播影视",
             "name": "独播｜影视",
             "type": 3,
-            "api": "csp_Duboku"
+            "api": "csp_Duboku",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f"
         },
         {
             "key": "厂长影视",
             "name": "厂长｜影视",
             "type": 3,
             "api": "csp_Czsapp",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -370,6 +408,7 @@
             "name": "金牌｜影视",
             "type": 3,
             "api": "csp_Jpys",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://m.610pkea.com,https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
         },
         {
@@ -377,19 +416,22 @@
             "name": "云播｜影视",
             "type": 3,
             "api": "csp_Tvyb",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "http://www.tvyb03.com"
         },
         {
             "key": "瓜子影视",
             "name": "瓜子｜影视",
             "type": 3,
-            "api": "csp_Gz360"
+            "api": "csp_Gz360",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f"
         },
         {
             "key": "骚火影视",
             "name": "骚火｜影视",
             "type": 3,
             "api": "csp_SaoHuo",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://shdy5.us"
         },
         {
@@ -397,6 +439,7 @@
             "name": "农民｜影视",
             "type": 3,
             "api": "csp_Wwys",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://vip.wwgz.cn:5200"
         },
         {
@@ -404,6 +447,7 @@
             "name": "爱看｜影视",
             "type": 3,
             "api": "csp_Ikanbot",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -413,6 +457,7 @@
             "name": "小镇｜影视",
             "type": 3,
             "api": "csp_XBPQ",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/XZYS.json"
         },
         {
@@ -420,6 +465,7 @@
             "name": "面包｜影视",
             "type": 3,
             "api": "csp_XBPQ",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/MBYS.json"
         },
         {
@@ -427,6 +473,7 @@
             "name": "永乐｜影视",
             "type": 3,
             "api": "csp_XBPQ",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/YLYS.json"
         },
         {
@@ -434,6 +481,7 @@
             "name": "剧圈｜影视",
             "type": 3,
             "api": "csp_XYQHiker",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/movie/json/JQYS.json"
         },
         {
@@ -441,6 +489,7 @@
             "name": "1905｜影视",
             "type": 3,
             "api": "csp_Web1905",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 0,
             "filterable": 0
@@ -450,6 +499,7 @@
             "name": "哆啦｜新番社",
             "type": 3,
             "api": "csp_XBPQ",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "style": {
                 "type": "list"
             },
@@ -460,6 +510,7 @@
             "name": "A1｜动漫",
             "type": 3,
             "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/anime/js/Anime1.js"
         },
         {
@@ -468,6 +519,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_AppSy",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": {
                 "site": "https://dm-1255775577.cos.ap-guangzhou.myqcloud.com/dmg/api.txt",
                 "siteKey": "rectangleadsadxa",
@@ -481,6 +533,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": {
                 "url": "http://tv.yy-fun.cc",
                 "dataKey": "qkxnwkfjwpcnwycl",
@@ -493,6 +546,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": {
                 "url": "https://www.cyfz.top",
                 "dataKey": "e72cdfd629e8895d",
@@ -505,6 +559,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": {
                 "url": "https://new.app.bytegooty.com",
                 "dataKey": "N4yj7l7xKxHF4*gz",
@@ -517,6 +572,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": {
                 "url": "https://app.omofun1.top",
                 "dataKey": "66dc309cbeeca454",
@@ -529,6 +585,7 @@
             "type": 3,
             "searchable": 1,
             "api": "csp_AppGet",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": {
                 "url": "https://www.gugu3.com",
                 "dataKey": "nKfZ8KX6JTNWRzTD",
@@ -540,6 +597,7 @@
             "name": "巴士｜动漫",
             "type": 3,
             "api": "csp_XYQHiker",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/anime/json/bsdm.json"
         },
         {
@@ -547,6 +605,7 @@
             "name": "花子｜动漫",
             "type": 3,
             "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/anime/js/HZDM.js"
         },
         {
@@ -554,6 +613,7 @@
             "name": "爱动漫｜动漫",
             "type": 3,
             "api": "./js/drpy2.min.js",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/anime/js/ADM.js"
         },
         {
@@ -561,6 +621,7 @@
             "name": "路漫漫｜动漫",
             "type": 3,
             "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/anime/js/LMM.js"
         },
         {
@@ -568,18 +629,21 @@
             "name": "去看吧｜动漫",
             "type": 3,
             "api": "https://pan.vma.cc/pan/down.php/ec67b9045d393737f073d2c9365533f0.js",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "ext": "https://git.yylx.win/raw.githubusercontent.com/PizazzGY/NewTVBox/main/anime/js/QKB.js"
         },
         {
             "key": "荐片",
             "name": "荐片｜磁力",
             "api": "csp_JianPian",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "type": 3
         },
         {
             "key": "修罗",
             "name": "修罗｜磁力",
             "api": "csp_Xlys",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "type": 3,
             "ext": "https://xl02.com.de"
         },
@@ -588,6 +652,7 @@
             "name": "七味｜磁力",
             "type": 3,
             "api": "csp_QnMp4",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -600,6 +665,7 @@
             "name": "80S｜磁力",
             "type": 3,
             "api": "csp_BLSGod",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
@@ -610,6 +676,7 @@
             "name": "New6V｜磁力",
             "type": 3,
             "api": "csp_New6v",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -620,6 +687,7 @@
             "name": "美剧迷｜磁力",
             "type": 3,
             "api": "csp_MeijuMi",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -629,6 +697,7 @@
             "name": "迅雷吧｜磁力",
             "type": 3,
             "api": "csp_Xunlei8",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -638,6 +707,7 @@
             "name": "电影港｜磁力",
             "type": 3,
             "api": "csp_XYQHiker",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -648,6 +718,7 @@
             "name": "电影天堂｜磁力",
             "type": 3,
             "api": "csp_DyGod",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1
@@ -657,6 +728,7 @@
             "name": "阿里｜云盘",
             "type": 3,
             "api": "csp_PanAli",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -670,6 +742,7 @@
             "name": "夸克｜网盘",
             "type": 3,
             "api": "csp_PanQuark",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -683,6 +756,7 @@
             "name": "UC｜网盘",
             "type": 3,
             "api": "csp_PanUC",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -696,6 +770,7 @@
             "name": "百度｜网盘",
             "type": 3,
             "api": "csp_PanBaidu",
+            "jar": "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png;md5;2d0461f01f79744ec92c2113dc17201f",
             "searchable": 0,
             "filterable": 0,
             "changeable": 0,
@@ -703,7 +778,7 @@
                 "type": "list",
                 "ratio": 1.433
             }
-    },
+        },
 	{
             "key": "MDrive",
             "name": "🗂我的云盘┃我配置",
