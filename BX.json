@@ -4,19 +4,26 @@
 "sites":[
 {"key":"豆","name":"一家人天天开心！——柏","type":3,"api":"csp_DouDouGuard","indexs":1,"searchable":0,"quickSearch":0,"filterable":0},
 {
-            "key": "配置中心",
-            "name": "配置｜中心",
+            "key": "玩偶",
+            "name": "玩偶｜4K",
             "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "indexs": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
+            "api": "csp_Wogg",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": [
+                    "https://wogg.xxooo.cf",
+                    "https://woggpan.888484.xyz",
+                    "https://wogg.333232.xyz",
+                    "http://woggpan.xxooo.cf",
+                    "https://www.wogg.one"
+                ]
+            },
+            "timeout": 60
         },
-	{
+        {
             "key": "快映",
             "name": "快映｜4K",
             "type": 3,
@@ -28,10 +35,8 @@
             "ext": {
                 "site": [
                     "http://xsayang.fun:12512",
-                    "http://154.201.83.50:12512",
-					
-                ],
-				"jar":"https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260424/SZBz/0X0/04242127.png"
+                    "http://154.201.83.50:12512"
+                ]
             },
             "timeout": 60
         },
@@ -320,6 +325,58 @@
             },
             "timeout": 60
         },
+        {
+            "key": "阿里云盘",
+            "name": "阿里｜云盘",
+            "type": 3,
+            "api": "csp_PanAli",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "夸克网盘",
+            "name": "夸克｜网盘",
+            "type": 3,
+            "api": "csp_PanQuark",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "UC网盘",
+            "name": "UC｜网盘",
+            "type": 3,
+            "api": "csp_PanUC",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        },
+        {
+            "key": "百度网盘",
+            "name": "百度｜网盘",
+            "type": 3,
+            "api": "csp_PanBaidu",
+            "searchable": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "list",
+                "ratio": 1.433
+            }
+        }
 	{
             "key": "MDrive",
             "name": "🗂我的云盘┃我配置",
