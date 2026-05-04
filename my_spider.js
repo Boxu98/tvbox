@@ -3,7 +3,7 @@ var rule = {
     host: 'https://www.zhenlang.cc', 
     
     // fyclass 会自动替换为下面的 dianying、lianxuju 等拼音
-    url: '/vodshow/fyclass--------fypage---.html',
+    url: '/vodtype/fyclass-fypage.html',
     searchUrl: '/vodsearch/-------------.html?wd=**',
     searchable: 2,
     quickSearch: 0,
