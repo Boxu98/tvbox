@@ -1,10 +1,9 @@
 var rule = {
-    类型: '影视',
     title: '厂长资源(加固版)',
-    host: 'https://www.cz01.org',
+    host: 'https://czzyv.com/',
     
     // 兼容性翻页逻辑
-    url: '/fyclass/page/fypage', 
+    url: '/fyclass/fypage.html', 
     searchUrl: '/boss1O1?q=**',
     searchable: 2,
     quickSearch: 0,
@@ -17,8 +16,7 @@ var rule = {
         'Accept-Language': 'zh-CN,zh;q=0.9'
     },
     
-    class_name: '最新电影&豆瓣Top250&国产剧&美剧&韩剧&番剧&剧场版',
-    class_url: 'zuixindianying&dbtop250&gcj&meijutt&hanjutv&fanju&dongmanjuchangban',
+    class_parse: 'zuixindianying&dbtop250&gcj&meijutt&hanjutv&fanju&dongmanjuchangban',
     
     play_parse: true,
     lazy: '',
