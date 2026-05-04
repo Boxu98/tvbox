@@ -1,35 +1,40 @@
 var rule = {
-    title: '真狼影视',
-    host: 'https://www.zhenlang.cc',
+    类型: '影视',
+    title: '厂长资源',
+    host: 'https://www.cz01.org',
     
-    // 我们先用标准的 vodshow 路径测试，如果不出列表再改
-    url: '/vodshow/fyclass--------fypage---.html',
-    searchUrl: '/vodsearch/-------------.html?wd=**',
+    // WordPress 主题标准的翻页规律
+    url: '/fyclass/page/fypage',
+    searchUrl: '/boss1O1?q=**',
+    
     searchable: 2,
     quickSearch: 0,
     headers: {
         'User-Agent': 'MOBILE_UA'
     },
     
-    // 最原始、最暴力的写死分类，只要引擎没挂，屏幕上100%会显示这四个按钮！
-    class_name: '电影&连续剧&综艺&动漫',
-    class_url: 'dianying&lianxuju&zongyi&dongman',
+    // 【完美对齐源码导航栏的静态分类】
+    class_name: '最新电影&豆瓣Top250&国产剧&美剧&韩剧&番剧&剧场版',
+    class_url: 'zuixindianying&dbtop250&gcj&meijutt&hanjutv&fanju&dongmanjuchangban',
     
     play_parse: true,
     lazy: '',
     limit: 6,
     
-    // 海螺主题最强提取方案
-    一级: '.vodlist_item;a.vodlist_thumb&&title;a.vodlist_thumb&&data-original;.pic_text&&Text;a.vodlist_thumb&&href',
+    // 【修改点：抛弃 .leibox，改用全站通杀的 .bt_img li】
+    // 逻辑：定位到 .bt_img 下的 li ; 取标题 ; 取图片 ; 取更新集数或评分 ; 取播放链接
+    一级: '.bt_img li;h3.dytit a&&Text;img.thumb&&data-original;.jidi span&&Text||.hdinfo&&Text;a&&href',
     
+    // 盲猜二级（根据该主题历史结构编写，如后续线路出不来，需要发详情页源码微调）
     二级: {
-        "title": "h1&&Text",
-        "img": ".vodlist_thumb&&data-original",
-        "desc": ".vodlist_sub&&Text",
-        "content": ".vod_content&&Text",
-        "tabs": ".play_source_tab a",
-        "lists": ".content_playlist:eq(#id) a"
+        "title": "h1&&Text", 
+        "img": ".dyimg img&&src||.dyimg img&&data-original", 
+        "desc": ".moviedteail_list li&&Text", 
+        "content": ".yp_context&&Text", 
+        "tabs": ".mi_paly_box .tj-slogan", 
+        "lists": ".paly_list_btn a" 
     },
     
-    搜索: '.vodlist_item;a.vodlist_thumb&&title;a.vodlist_thumb&&data-original;.pic_text&&Text;a.vodlist_thumb&&href'
+    // 搜索结果结构与列表一致
+    搜索: '.bt_img li;h3.dytit a&&Text;img.thumb&&data-original;.jidi span&&Text||.hdinfo&&Text;a&&href'
 };
