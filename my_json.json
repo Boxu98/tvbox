@@ -2,7 +2,7 @@
   "spider": "./drpy2.min.js",
   "sites": [
     {
-      "key": "zhenlang_final_002", 
+      "key": "zhenlang_final_001", 
       "name": "🦋真狼影视(自制)",
       "type": 3,
       "api": "./drpy2.min.js",
