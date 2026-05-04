@@ -3,8 +3,8 @@ var rule = {
     title: '真狼影视',
     host: 'https://www.zhenlang.cc',
     
-    // 适配真实源码的 vodtype 翻页路径
-    url: '/vodtype/fyclass-fypage.html',
+    // 分类页面的翻页规律，通常配合下面的动态抓取使用 vodshow 路径
+    url: '/vodshow/fyclass--------fypage---.html',
     searchUrl: '/vodsearch/-------------.html?wd=**',
     searchable: 2,
     quickSearch: 0,
@@ -12,18 +12,18 @@ var rule = {
         'User-Agent': 'MOBILE_UA'
     },
     
-    // 采用静态拼音分类，速度最快且最稳定
-    class_name: '电影&连续剧&综艺&动漫',
-    class_url: 'dianying&lianxuju&zongyi&dongman',
+    // 【全新杀招：动态抓取分类】
+    // 逻辑：定位到 nav_list 下的 li 标签 ; 获取 a 标签的标题 ; 获取 a 标签的链接 ; 利用正则只提取带有 /vodtype/ 的链接拼音（完美避开"首页"、"自助解析"等无关按钮）
+    class_parse: '.nav_list li;a&&title;a&&href;/vodtype/(.*?).html',
     
     play_parse: true,
     lazy: '',
     limit: 6,
     
-    // 海螺主题列表解析规则：定位列表项 ; 获取a标签标题 ; 获取懒加载图片 ; 获取右上角清晰度 ; 获取链接
+    // 列表解析
     一级: '.vodlist_item;a.vodlist_thumb&&title;a.vodlist_thumb&&data-original;.pic_text&&Text;a.vodlist_thumb&&href',
     
-    // 详情页解析规则
+    // 详情解析
     二级: {
         "title": "h1&&Text",
         "img": ".vodlist_thumb&&data-original",
@@ -33,6 +33,6 @@ var rule = {
         "lists": ".content_playlist:eq(#id) a"
     },
     
-    // 搜索结果解析规则
+    // 搜索解析
     搜索: '.vodlist_item;a.vodlist_thumb&&title;a.vodlist_thumb&&data-original;.pic_text&&Text;a.vodlist_thumb&&href'
 };
