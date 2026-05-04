@@ -10,6 +10,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "./my_spider.js"
+      "jar": "./pg.jar"
     }
   ]
 } 
