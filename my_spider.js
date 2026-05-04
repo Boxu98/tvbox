@@ -1,38 +1,37 @@
-// my_spider.js
 var rule = {
-    title: '我的自建测试站',
-    // 1. 目标网站的网址 (这里以一个假设的网站为例，你需要换成真实的)
-    host: 'https://www.example.com', 
-    
-    // 2. 分类页面的链接特征 (fyclass代表分类名，fypage代表页码)
-    url: '/category/fyclass/page/fypage.html',
-    
-    // 3. 搜索页面的链接特征 (**代表搜索的关键词)
-    searchUrl: '/search/**/page/fypage.html',
-    
-    // 4. 开启浏览器伪装，防止被拦截
+    title: '真狼影视',
+    host: 'https://www.zhenlang.cc', 
+    // 分类页面的链接规律 (基础的CMS系统通常是这个规律)
+    url: '/vodshow/fyclass--------fypage---.html',
+    // 搜索页面的链接规律
+    searchUrl: '/vodsearch/-------------.html?wd=**',
+    searchable: 2,
+    quickSearch: 0,
     headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        'User-Agent': 'MOBILE_UA' // 模拟手机端访问以获取更简洁的网页结构
     },
+    // 手动写死分类，1、2、3、4 分别对应网站的 电影、连续剧、综艺、动漫
+    class_name: '电影&连续剧&综艺&动漫',
+    class_url: '1&2&3&4',
     
-    // --- 下面是 dr_py 最核心的“填空题”语法 ---
-    // 语法规则通常是： 列表范围 ; 标题 ; 图片 ; 描述 ; 链接
+    play_parse: true,
+    lazy: '',
+    limit: 6,
     
-    // 5. 首页推荐列表怎么抓？
-    推荐: '.list-item; a&&title; img&&src; .remark&&Text; a&&href',
+    // 一级页面(分类列表页)的解析规则：获取视频外层区块 ; 获取标题 ; 获取图片 ; 获取更新集数 ; 获取详情页链接
+    // 提示：'.module-item' 是这类网站常用类名。如果不出列表，需要按F12检查实际网页类名。
+    一级: '.module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
     
-    // 6. 分类列表页怎么抓？ (和推荐往往是一样的)
-    一级: '.list-item; a&&title; img&&src; .remark&&Text; a&&href',
-    
-    // 7. 视频详情页怎么抓？
+    // 二级页面(视频详情页)的解析规则
     二级: {
-        "title": "h1&&Text",         // 抓大标题
-        "img": ".poster img&&src",   // 抓海报
-        "desc": ".info&&Text",       // 抓简介
-        "tabs": ".play-tab",         // 抓播放线路名 (比如 线路一, 线路二)
-        "lists": ".play-list:eq(#id) a" // 抓具体的集数按钮
+        "title": "h1&&Text", // 电影名称通常在 h1 标签
+        "img": ".lazyload&&data-src", // 海报图片
+        "desc": ".video-info-items:eq(0)&&Text", // 年份、地区等描述
+        "content": ".vod_content&&Text", // 剧情简介
+        "tabs": ".module-tab-item", // 播放线路选项卡
+        "lists": ".module-play-list:eq(#id) a" // 具体的播放集数按钮
     },
     
-    // 8. 搜索结果页怎么抓？
-    搜索: '.search-list; a&&title; img&&src; .remark&&Text; a&&href'
-};
+    // 搜索结果页面的解析规则，通常和一级页面结构一致
+    搜索: '.module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href'
+}
