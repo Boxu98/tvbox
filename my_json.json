@@ -1,14 +1,11 @@
 {
-  "spider": "./drpy2.min.js",
-  "sites": [
-    {
-      "key": "zhenlang_v2", 
-      "name": "🦋真狼影视",
+      "key": "hipy_js_真狼影视_v1",
+      "name": "🦋真狼影视(自制)",
       "type": 3,
-      "api": "./my_spider.js",
+      "api": "./drpy_libs/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
-    }
-  ]
-}
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "./drpy_js/真狼影视.js"
+    },
