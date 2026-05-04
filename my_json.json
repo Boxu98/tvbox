@@ -1,5 +1,5 @@
 {
-  "spider": "./pg.jar",
+  "spider": "./fty.jar;md5;69a2e21f399421cf1f012a5ad501e31f",
   "sites": [
     {
       "key": "czzy_diy_001",
@@ -9,7 +9,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./my_spider.js"
+      "ext": "./my_spider.js",
+      "jar":"./pg.jar"
     }
   ]
 } 
