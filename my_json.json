@@ -2,14 +2,13 @@
   "spider": "./drpy2.min.js",
   "sites": [
     {
-      "key": "zhenlang_final_001", 
-      "name": "🦋真狼影视(自制)",
+      "key": "czzy_diy_001",
+      "name": "🎬厂长资源(重组版)",
       "type": 3,
       "api": "./drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "order_num": 0,
       "ext": "./my_spider.js"
     }
   ]
