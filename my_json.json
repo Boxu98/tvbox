@@ -1,0 +1,14 @@
+{
+  "spider": "./drpy2.min.js",
+  "sites": [
+    {
+      "key": "diy_site_01",
+      "name": "🦋我的自制爬虫站",
+      "type": 3,
+      "api": "./my_spider.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    }
+  ]
+}
