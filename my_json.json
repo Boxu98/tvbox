@@ -1,5 +1,5 @@
 {
-  "spider": "./drpy2.min.js",
+  "spider": "./pg.jar",
   "sites": [
     {
       "key": "czzy_diy_001",
