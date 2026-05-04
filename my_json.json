@@ -2,7 +2,7 @@
   "spider": "./drpy2.min.js",
   "sites": [
     {
-      "key": "zhenlang",
+      "key": "zhenlang_v2", 
       "name": "🦋真狼影视",
       "type": 3,
       "api": "./my_spider.js",
