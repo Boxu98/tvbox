@@ -1,38 +1,38 @@
 var rule = {
     类型: '影视',
-    title: '真狼影视', 
+    title: '真狼影视',
     host: 'https://www.zhenlang.cc',
     
-    // 【修改点 1】摒弃可能失效的 vodshow，改为适配它真实源码的 vodtype 翻页路径
-    // 假设它的翻页规律是 dianying-2.html，如果不显示列表，需要你在浏览器点一下第二页看看真实规律
-    url: '/vodtype/fyclass-fypage.html', 
-    
-    searchUrl: '/vodsearch/-------------.html?wd=**', 
+    // 适配真实源码的 vodtype 翻页路径
+    url: '/vodtype/fyclass-fypage.html',
+    searchUrl: '/vodsearch/-------------.html?wd=**',
     searchable: 2,
     quickSearch: 0,
     headers: {
         'User-Agent': 'MOBILE_UA'
     },
     
-    // 【修改点 2】删除写死的 class_name，改为动态去网站导航栏抓取！
-    // 逻辑：定位所有导航 li -> 获取文字 -> 获取链接 -> 用正则截取出拼音标识
-    class_parse: '.nav_list li;a&&title;a&&href;/vodtype/(.*?).html',
+    // 采用静态拼音分类，速度最快且最稳定
+    class_name: '电影&连续剧&综艺&动漫',
+    class_url: 'dianying&lianxuju&zongyi&dongman',
     
     play_parse: true,
     lazy: '',
     limit: 6,
     
-    // 【修改点 3】更稳妥的元素定位法，防止 drpy 解析连写标签时出错
-    一级: '.vodlist_item;.vodlist_title a&&Text;.vodlist_thumb&&data-original;.pic_text&&Text;.vodlist_thumb&&href',
+    // 海螺主题列表解析规则：定位列表项 ; 获取a标签标题 ; 获取懒加载图片 ; 获取右上角清晰度 ; 获取链接
+    一级: '.vodlist_item;a.vodlist_thumb&&title;a.vodlist_thumb&&data-original;.pic_text&&Text;a.vodlist_thumb&&href',
     
+    // 详情页解析规则
     二级: {
-        "title": "h1&&Text", 
-        "img": ".vodlist_thumb&&data-original", 
-        "desc": ".vodlist_sub&&Text", 
-        "content": ".vod_content&&Text", 
-        "tabs": ".play_source_tab a", 
-        "lists": ".content_playlist:eq(#id) a" 
+        "title": "h1&&Text",
+        "img": ".vodlist_thumb&&data-original",
+        "desc": ".vodlist_sub&&Text",
+        "content": ".vod_content&&Text",
+        "tabs": ".play_source_tab a",
+        "lists": ".content_playlist:eq(#id) a"
     },
     
-    搜索: '.vodlist_item;.vodlist_title a&&Text;.vodlist_thumb&&data-original;.pic_text&&Text;.vodlist_thumb&&href'
+    // 搜索结果解析规则
+    搜索: '.vodlist_item;a.vodlist_thumb&&title;a.vodlist_thumb&&data-original;.pic_text&&Text;a.vodlist_thumb&&href'
 };
