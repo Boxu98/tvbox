@@ -1,4 +1,7 @@
 {
+  "spider": "./drpy2.min.js",
+  "sites": [
+    {
       "key": "hipy_js_真狼影视_v1",
       "name": "🦋真狼影视(自制)",
       "type": 3,
@@ -9,3 +12,5 @@
       "order_num": 0,
       "ext": "./drpy_js/真狼影视.js"
     },
+  ]
+}
