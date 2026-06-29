@@ -727,10 +727,6 @@
         "commonConfig": "https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/json/peizhi.json"
       }
    ,"jar":"https://gh-proxy.com/raw.githubusercontent.com/yoursmile66/TVBox/main/Yoursmile.jar"},
-	{
-    "spider": "https://zl.wpscdn.cn/2026/06/29/space_img/701df858-5fe4-4ac0-bc9a-f86a87a8cbf5.jpg;md5;0c32d054350e007ba83c2feacfc1f0ac",
-    "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
-    "sites": [
         {
             "key": "点我切源",
             "name": "去【太太太硬了】领取嘟嘟盘免费容量",
@@ -758,7 +754,7 @@
         },
         {
             "key": "玩偶",
-            "name": "👽玩偶哥哥┃4K弹幕",
+            "name": "🐂🐸玩偶哥哥┃4K弹幕",
             "type": 3,
             "api": "csp_WoGGGuard",
             "timeout": 30,
