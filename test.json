@@ -1587,16 +1587,6 @@
       }
     },
     {
-      	"key": "zp100",
-      	"name": "乐播",
-      	"type": 0,
-      	"api": "https://lbapi9.com/api.php/provide/vod/at/xml/",
-    	"searchable": 1,
-      	"quickSearch": 1,
-      	"filterable": 0,
-	    "jar": "https://mirror.ghproxy.com/https://github.com/bizhangjie/CatVodSpider/blob/main/jar/custom_spider.jar"
-    },
-    {
       "key": "hipy_js_539影视",
       "name": "539影视(drpy_t3)",
       "type": 3,
